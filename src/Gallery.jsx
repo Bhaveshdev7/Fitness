@@ -8,7 +8,7 @@ export default function Gallery() {
                 <div className="md:max-w-4xl  p-1">
                     <div className="w-[580px] h-[340px] overflow-hidden rounded-tl-[6rem] shadow-lg border border-orange-500">
                         <img
-                            src="./public/image 9.png"
+                            src="src/assets/image 9.png"
                             alt="Person lifting barbell in gym with black floor tiles"
                             className="w-full h-full object-cover"
                         />
