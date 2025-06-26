@@ -5,7 +5,7 @@
           return (
             <section className="relative w-full h-auto pt-18">
               <img
-                src=".\public\Rectangle 4.png"
+                src="public/Rectangle 4.png"
                 alt="Muscular man lifting dumbbell in gym with dark blue lighting, sitting on bench"
                 className="w-full h-full "
               />
