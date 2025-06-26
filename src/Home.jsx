@@ -1,14 +1,16 @@
 
         import React from "react";
+        import img1 from "./assets/Rectangle 4.png";
 
         const Home = () => {
           return (
             <section className="relative w-full h-auto pt-18">
               <img
-                src="src/assets/Rectangle 4.png"
+                src={img1}
                 alt="Muscular man lifting dumbbell in gym with dark blue lighting, sitting on bench"
                 className="w-full h-full "
               />
+             
               <div className="absolute mb-20 inset-0 z-10 flex flex-col justify-center px-6 md:px-20 max-w-screen-xl mx-auto">
               <h1 className="text-white text-4xl sm:text-5xl md:text-6xl font-orbitron font-extrabold max-w-xl space-y-2 flex flex-col">
   <span><span className="text-orange-600">Unleash</span> your</span>

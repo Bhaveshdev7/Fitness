@@ -1,3 +1,5 @@
+import img2 from "./assets/image 9.png";
+
 export default function Gallery() {
     return (
         <div className="max-w-7xl mx-auto px-4 py-6 bg-[#161616] text-white">
@@ -8,7 +10,7 @@ export default function Gallery() {
                 <div className="md:max-w-4xl  p-1">
                     <div className="w-[580px] h-[340px] overflow-hidden rounded-tl-[6rem] shadow-lg border border-orange-500">
                         <img
-                            src="src/assets/image 9.png"
+                            src={img2}
                             alt="Person lifting barbell in gym with black floor tiles"
                             className="w-full h-full object-cover"
                         />

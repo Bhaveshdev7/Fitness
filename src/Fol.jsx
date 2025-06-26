@@ -1,3 +1,4 @@
+import img3 from "./assets/app.png";
 
 export default function Fol() {
     return (
@@ -22,7 +23,7 @@ export default function Fol() {
                     </div>
                 </div>
                 <div class="flex justify-center flex-1 relative">
-                    <img alt="Three smartphones with black screens showing a fitness app interface with images of people exercising and workout classes" class="max-w-full h-auto" height="400" src="src/assets/app.png" width="600" />
+                    <img alt="Three smartphones with black screens showing a fitness app interface with images of people exercising and workout classes" class="max-w-full h-auto" height="400" src={img3} width="600" />
                 </div>
             </div>
         </div>
